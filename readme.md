@@ -3,22 +3,11 @@
 але вже починаючі зі 100 елементів Timsort працює на 1 порядок швидше ніж сортування "Злиттям", 
 та на 2 і більше порядків ніж "Вставками"
 
-Array size: 10
-├──Insertion sort time: 0.000005 seconds
-├──Merge sort time:     0.000012 seconds
-└──Timsort time:        0.000001 seconds
+## Результати
 
-Array size: 100
-├──Insertion sort time: 0.000100 seconds
-├──Merge sort time:     0.000070 seconds
-└──Timsort time:        0.000008 seconds
-
-Array size: 1000
-├──Insertion sort time: 0.011966 seconds
-├──Merge sort time:     0.000888 seconds
-└──Timsort time:        0.000076 seconds
-
-Array size: 5000
-├──Insertion sort time: 0.301811 seconds
-├──Merge sort time:     0.005671 seconds
-└──Timsort time:        0.000523 seconds
+| Array Size | Insertion Sort (s) | Merge Sort (s) | Timsort (s) |
+|------------|--------------------|----------------|-------------|
+| 10         | 0.000005 | 0.000012 | 0.000001 |
+| 100        | 0.000100 | 0.000070 | 0.000008 |
+| 1000       | 0.011966 | 0.000888 | 0.000076 |
+| 5000       | 0.301811 | 0.005671 | 0.000523 |
